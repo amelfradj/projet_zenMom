@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class ControllerhtmlController extends AbstractController
 {
-    #[Route('/controllerhtml', name: 'app_controllerhtml', methods: ['GET'])]
+    #[Route('/', name: 'app_controllerhtml', methods: ['GET'])]
     public function index(): Response
     {
         return $this->render('controllerhtml/index.html.twig', [
