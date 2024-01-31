@@ -283,8 +283,8 @@ color: #5D3222;
   width: 395.95px;
   height: 486.96px;
   position: relative;
- left:800px;
- bottom: 265px;
+ left:835px;
+ bottom: 330px;
 }
 .carte1 >img {
 max-width: 100%;
@@ -292,6 +292,7 @@ height:auto;
 border-radius: 100px 100px 0px 0px;
 
 }
+
 /********************fin de main**********************/
 footer{
 
