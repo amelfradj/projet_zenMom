@@ -15,7 +15,7 @@ class ControllerhtmlController extends AbstractController
         return $this->render('controllerhtml/index.html.twig', [
             'controller_name' => 'ControllerhtmlController',
         ]);
-    }
+    }ch
 }
 
 // #[Route('/registration', name: 'app_registration', methods: ['GET', 'POST'])]
