@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Créer un compte{% endblock %}
+
+{% block body %}
+
+ <div id="container_formulaire_ins">
+
+    <h2>Créer un compte</h2>
+
+        <form action=""  method="post">
+            
+            <div class="nomprenom">
+                <input type="lastname" name="lastname" id="lastname" placeholder="Nom" required/>
+                <input type="name" name="name" id="name" placeholder="Prénom" required/><br>
+            </div>
+       
+                <input type="email" name="email" id="email" placeholder="E-mail" required/><br>
+                <input type="password" name="password" id="password" placeholder="Mot de passe" required/><br>
+       
+            <div class="birthdate">
+                <label for="birthdate" class="birthdate">Date de naissance</label>
+                <input type="date" name="birthdate" id="birthdate" value="2023-10-24" min="1965-01-01" max="2004-12-31" required/><br>
+            </div>
+       
+            <p>En cliquant sur <b>Créer un compte</b>, vous acceptez nos <b>Conditions générales</b>. Découvrez comment nous recueillons, utilisons et partageons vos données en lisant notre <b>Politique de confidentialité</b> et comment nous utilisons les cookies et autres technologies similaires en consultant notre <b>Politique d’utilisation des cookies</b>. Vous recevrez peut-être des notifications par texto de notre part et vous pouvez à tout moment vous désabonner.</p>
+       
+            <button id="valider" type="submit" >Créer mon compte</button>
+            <button type="button" id="annuler">Annuler</button>
+
+        </form>
+
+ </div>
+
+{% endblock %}

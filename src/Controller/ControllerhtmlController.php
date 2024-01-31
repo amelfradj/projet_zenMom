@@ -16,6 +16,7 @@ class ControllerhtmlController extends AbstractController
             'controller_name' => 'ControllerhtmlController',
         ]);
     }
+    
 }
 
 // #[Route('/registration', name: 'app_registration', methods: ['GET', 'POST'])]
