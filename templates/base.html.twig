@@ -20,6 +20,11 @@
 		</title>
 		{% block javascripts %}
 			{{ encore_entry_script_tags('app') }}
+			<script src="{{ asset('javascript/script.js') }}"></script>
+			<script src="{{ asset('javascript/moncompte.js') }}"></script>
+			<script src="{{ asset('javascript/script-jereserve.js') }}"></script>
+			<script src="{{ asset('javascript/setting.json') }}"></script>
+		
 		{% endblock %}
 	</head>
 	<header id="header">
