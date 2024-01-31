@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 <?php
 
 namespace App\Entity;
@@ -223,3 +225,4 @@ class Utilisateur  implements UserInterface, PasswordAuthenticatedUserInterface
 
 
 }
+>>>>>>> e7f5ddf9568f08f67ac6865a6cab8da1e0131d70
